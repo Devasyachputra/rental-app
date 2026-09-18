@@ -21,7 +21,7 @@ export default function Sidebar({ open, onClose }) {
         }`}
       >
         <div className="mb-8">
-          <p className="text-lg font-extrabold text-brand-700">Anantalia Rental</p>
+          <p className="text-lg font-extrabold text-brand-700">Rental Mobil</p>
           <p className="text-[11px] font-semibold uppercase tracking-wide text-ink/40">
             Administrator Panel
           </p>

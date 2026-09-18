@@ -28,7 +28,7 @@ export default function WhyUs() {
     <section id="tentang" className="mx-auto max-w-6xl px-5 py-16">
       <div className="mb-10 text-center">
         <h2 className="text-2xl font-extrabold text-ink sm:text-3xl">
-          Kenapa Harus <span className="text-brand-600">Anantalia Trans?</span>
+          Kenapa Harus <span className="text-brand-600">Rental Mobil?</span>
         </h2>
         <p className="mx-auto mt-2 max-w-xl text-sm text-ink/60">
           Kami mengedepankan kualitas armada dan kepuasan pelanggan sebagai prioritas utama kami.

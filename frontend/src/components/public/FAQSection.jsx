@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    q: 'Bagaimana proses booking mobil di Anantalia Trans?',
+    q: 'Bagaimana proses booking mobil di Rental Mobil?',
     a: 'Pilih unit di katalog, klik tombol Booking via WhatsApp, dan tim kami akan mengonfirmasi ketersediaan serta detail sewa langsung melalui chat.',
   },
   {

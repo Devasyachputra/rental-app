@@ -1,6 +1,6 @@
 /**
  * Skrip sekali-jalan untuk membuat akun admin pertama.
- * Jalankan: npm run seed:admin -- admin@anantalia.id passwordAman123
+ * Jalankan: npm run seed:admin -- admin@rentalmobil.id passwordAman123
  */
 require('dotenv').config()
 const bcrypt = require('bcryptjs')
@@ -19,7 +19,7 @@ async function main() {
   const admin = await prisma.admin.upsert({
     where: { email },
     update: { passwordHash, name: name || undefined },
-    create: { email, passwordHash, name: name || 'Owner Anantalia' },
+    create: { email, passwordHash, name: name || 'Owner Rental Mobil' },
   })
 
   console.log(`✅ Admin siap dipakai: ${admin.email}`)

@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-export const TOKEN_KEY = 'anantalia_admin_token'
+export const TOKEN_KEY = 'rental_mobil_admin_token'
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_BASE_URL || 'http://localhost:4000/api',

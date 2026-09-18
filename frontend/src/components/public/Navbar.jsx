@@ -16,7 +16,7 @@ export default function Navbar({ whatsappNumber }) {
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5">
         <a href="#beranda" className="flex items-center gap-2">
           <span className="text-lg font-extrabold tracking-tight text-brand-700">
-            ANANTALIA TRANS
+            RENTAL MOBIL
           </span>
         </a>
 

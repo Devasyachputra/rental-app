@@ -30,7 +30,7 @@ export default function LoginPage() {
     <div className="flex min-h-screen items-center justify-center bg-mist px-5">
       <div className="w-full max-w-sm rounded-3xl border border-brand-100 bg-white p-8 shadow-soft">
         <p className="text-xs font-semibold uppercase tracking-wide text-brand-500">
-          Anantalia Rental
+          Rental Mobil
         </p>
         <h1 className="mt-1 text-xl font-extrabold text-ink">Masuk ke Panel Admin</h1>
         <p className="mt-1 text-xs text-ink/50">
@@ -45,7 +45,7 @@ export default function LoginPage() {
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="admin@anantalia.id"
+              placeholder="admin@rentalmobil.id"
               className="w-full rounded-xl border border-brand-200 px-4 py-2.5 text-sm outline-none focus:border-brand-500"
             />
           </div>

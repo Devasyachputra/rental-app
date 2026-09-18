@@ -108,7 +108,7 @@ export default function RatesPage() {
         <div>
           <h1 className="text-xl font-extrabold text-ink sm:text-2xl">Kelola Tabel Harga Sewa</h1>
           <p className="mt-1 text-sm text-ink/50">
-            Konfigurasikan tarif sewa harian dan luar kota untuk armada Anantalia.
+            Konfigurasikan tarif sewa harian dan luar kota untuk armada Rental Mobil.
           </p>
         </div>
         <button

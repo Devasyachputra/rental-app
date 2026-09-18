@@ -5,7 +5,6 @@ import PriceTable from '../components/public/PriceTable.jsx'
 import WhyUs from '../components/public/WhyUs.jsx'
 import TermsSection from '../components/public/TermsSection.jsx'
 import FAQSection from '../components/public/FAQSection.jsx'
-import ContactSection from '../components/public/ContactSection.jsx'
 import Footer from '../components/public/Footer.jsx'
 import { useCars } from '../hooks/useCars.js'
 import { useRates } from '../hooks/useRates.js'
@@ -26,7 +25,6 @@ export default function LandingPage() {
       <WhyUs />
       <TermsSection />
       <FAQSection />
-      <ContactSection />
       <Footer whatsappNumber={whatsappNumber} />
     </div>
   )
